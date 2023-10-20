@@ -14,7 +14,7 @@ public class ParcurgereString {
     }
 
     public void parcurgeInvers() {
-        for (int i = string.length() - 1; i > string.length() / 2; --i) {
+        for (int i = string.length() - 1; i >= string.length() / 2; --i) {
             System.out.println("Second: " + string.charAt(i));
         }
 
